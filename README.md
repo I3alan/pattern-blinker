@@ -8,7 +8,7 @@ and generate code only for the desired section of the recording.
 
 The output is stored in a generated .txt file.
 
-You can either compile it yourself from cloning the *src* folder
+You can either compile it yourself by cloning the *src* folder
 or simply use the compiled .jar.
 
 # Sample Output File:
