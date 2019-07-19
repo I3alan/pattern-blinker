@@ -2,9 +2,14 @@
 Simple JavaFX project.
 
 Generates timing pseudo-code to blink LEDs according to a keystroke pattern.
+
+Records up to 5 seconds of input and has adjustable limits to preview
+and generate code only for the desired section of the recording.
+
 The output is stored in a generated .txt file.
 
-Sample file contents:
+
+# Sample Output File:
 
 Snippet A: Toggling and Wait Statements
 ```
