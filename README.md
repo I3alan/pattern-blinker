@@ -1,5 +1,6 @@
 # pattern-blinker
 Simple JavaFX project.
+
 Generates timing pseudo-code to blink LEDs according to a keystroke pattern.
 The output is stored in a generated .txt file.
 
