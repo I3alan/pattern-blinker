@@ -30,14 +30,12 @@ HOW-TO-USE: insert the snippet into a loop and replace the toggling and wait sta
 
 Example:
 ```
-while (count < 10) {
-	for(int i = 0; i < array.length; i++) {
-		if array[i][0] == 1 {
-			toggle_led_on();
-		} else {
-			toggle_led_off();
-		}
-	sleep(array[i][1]);
+for(int i = 0; i < array.length; i++) {
+	if array[i][0] == 1 {
+		toggle_led_on();
+	} else {
+		toggle_led_off();
 	}
+	sleep(array[i][1]);
 }
 ```
